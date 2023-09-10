@@ -17,3 +17,5 @@ Oh, and the cool dude on the wallpapers is Joker from Persona 5.
 ## How to use
 
 Use crontab or windows task planner to trigger the start of the program once an hour. It's not the most accurate version right now, maybe I'll update it later so that the wallpaper changes at the right times.
+
+![Windows Task Scheduler](https://i.ibb.co/hVZqb1m/Capture-d-cran-2023-09-10-131436.png)
