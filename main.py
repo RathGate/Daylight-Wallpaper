@@ -45,8 +45,8 @@ defaultValues = {
     "longitude": 5.169223,
     "sunrise": datetime.combine(date.today(), time(hour=7, tzinfo=current_tz)),
     "sunset": datetime.combine(date.today(), time(hour=19, tzinfo=current_tz)),
-    "light": 'wallpapers/light.png',
-    "dark": 'wallpapers/dark.png'
+    "light": f'{os.path.dirname(os.path.abspath(__file__))}/wallpapers/light.png',
+    "dark": f'{os.path.dirname(os.path.abspath(__file__))}/wallpapers/dark.png'
 }
 
 # Wallpaper transition animation functions
@@ -203,6 +203,6 @@ def main():
     currentMode = timedata.getCurrentMode()
     if currentMode != getCurrentWallpaperMode():
         print("Switching wallpapers.....")
-        set_wallpaper(f"{os.path.dirname(os.path.abspath(__file__))}/{defaultValues[currentMode]}")
+        set_wallpaper(defaultValues[currentMode])
 
 main()
