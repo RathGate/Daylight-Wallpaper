@@ -201,6 +201,8 @@ def main():
     timedata.prettyPrint()
 
     currentMode = timedata.getCurrentMode()
+    test = getCurrentWallpaperMode();
+    print(test)
     if currentMode != getCurrentWallpaperMode():
         print("Switching wallpapers.....")
         set_wallpaper(defaultValues[currentMode])

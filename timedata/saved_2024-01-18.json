@@ -1,0 +1,16 @@
+{
+    "results": {
+        "sunrise": "2024-01-18T07:06:08+00:00",
+        "sunset": "2024-01-18T16:32:59+00:00",
+        "solar_noon": "2024-01-18T11:49:33+00:00",
+        "day_length": 34011,
+        "civil_twilight_begin": "2024-01-18T06:36:16+00:00",
+        "civil_twilight_end": "2024-01-18T17:02:51+00:00",
+        "nautical_twilight_begin": "2024-01-18T06:01:04+00:00",
+        "nautical_twilight_end": "2024-01-18T17:38:03+00:00",
+        "astronomical_twilight_begin": "2024-01-18T05:26:54+00:00",
+        "astronomical_twilight_end": "2024-01-18T18:12:13+00:00"
+    },
+    "status": "OK",
+    "tzid": "UTC"
+}
